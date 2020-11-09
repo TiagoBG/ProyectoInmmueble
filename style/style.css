@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header .img-banner {
+    max-height: 500px;
+}
+
+header .banner .banner-title,
+header .banner .banner-title-1 {
+    position: absolute;
+    top: 8rem;
+    right: 17rem;
+    font-size: 2.4rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .banner .banner-title-1 {
+    top: 11rem;
+    right: 3rem;
+    font-size: 2.8rem;
+}
