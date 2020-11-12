@@ -143,13 +143,43 @@
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label for="nombre_propietario">Nombre(*)</label>
-                                            <input type="text" id="nombre_propietario" class="form-control" placeholder="Agregar nombre de propietario" required>
+                                            <input type="text" id="nombre_propietario" class="form-control" placeholder="Agregar nombre de propietario" value="Tatianna" maxlength="10" required>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label for="doc_propietario">Documento(*)</label>
-                                            <input type="text" id="doc_propietario" class="form-control" placeholder="Agregar el número de documento" required>
+                                            <input type="number" id="doc_propietario" class="form-control" placeholder="Agregar el número de documento" value="487659" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row"></div>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <div class="card-header">Datos del inmueble en la mensualidad</div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="metros_cuadrados">Metros<sup>2</sup> (*)</label>
+                                            <input type="number" id="metros_cuadrados" class="form-control" placeholder="Agregar metros cuadrados" value="90" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="tipo_inmueble">Tipo inmueble (*)</label>
+                                            <div>
+                                                <div class="form-check-inline">
+                                                    <input type="radio" name="tipo_inmueble" class="form-check-input" value="A" id="tipo_inmeble_A">
+                                                    <label class="form-check-label" for="tipo_inmeble_A">Apartamento</label>
+                                                </div>
+                                                <div class="form-check-inline">
+                                                    <input type="radio" name="tipo_inmueble" class="form-check-input" value="C" id="tipo_inmeble_C">
+                                                    <label class="form-check-label" for="tipo_inmeble_C">Casa</label>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
